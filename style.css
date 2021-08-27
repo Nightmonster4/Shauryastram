@@ -1,0 +1,106 @@
+#sec1 {
+    background: linear-gradient(#34fa02 0%, #02f6fa 100%);
+    height: 500px;
+    padding: 50px;
+}
+
+#sec2 {
+    background: linear-gradient(#fa9f02 0%, #faee02 100%);
+    height: 300px;
+    padding: 50px;
+}
+
+#sec3 {
+    background: linear-gradient(#fa0202 0%, #121111 100%);
+    height: 700px;
+    padding: 50px;
+}
+
+#sec4 {
+    background: linear-gradient(#0223f7 0%, #ccfbfc 100%);
+    height: 300px;
+    padding: 50px;
+}
+
+#sec5 {
+    background: linear-gradient(#a102f7 0%, #ffbdf9 100%);
+    height: 500px;
+    padding: 50px;
+}
+
+#sec6 {
+    background: linear-gradient(#fffaff 0%, #1c1a1c 100%);
+    height: 550px;
+    padding: 50px;
+}
+
+#sec7 {
+    background: linear-gradient(#00ffdd 0%, #bdffd5 100%);
+    height: 200px;
+    padding: 50px;
+}
+
+.H {
+    font-size: 30px;
+    font-family: 'Comic Neue', cursive;
+    text-decoration: underline;
+    text-align: center;
+}
+#SS{
+    width:300px;
+    height:300px;
+    border-style:outset;
+    border-color:black;
+    border-width:7px;
+}
+body{
+    text-align:center;
+}
+#Hi{
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size:40px;
+}
+#Name{
+    font-family: 'Dancing Script', cursive;
+    font-size:29px;
+    text-decoration: overline underline;
+}
+#About_me{
+    font-family: 'Dancing Script', cursive;
+    font-size:25px;
+}
+.C{
+    height:200px;
+}
+.C:hover{
+    transform: scale(1.2);
+}
+.H:hover{
+    color:lime;
+    background-color:blue;
+}
+.menu{
+    margin-left:-90px;
+    list-style:none;
+    position:fixed;
+    margin-top:0px;
+    top:0;
+    z-index:10;
+    background-color:Black;
+    width:100%;
+}
+.links{
+    display:inline;
+    padding:15px;
+    font-size:25px;
+    font-weight:bold;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+a:hover{
+    font-size:20px;
+    text-decoration:underline;
+    color:red;
+}
